@@ -1,0 +1,245 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = The_project
+build_property.RootNamespace = The_project
+build_property.ProjectDir = E:\facualty\Level_3\Semster_2\Software Developement\Last edit\LAst\The project-finish\The project\The project\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = E:\facualty\Level_3\Semster_2\Software Developement\Last edit\LAst\The project-finish\The project\The project
+build_property._RazorSourceGeneratorDebug = 
+
+[E:/facualty/Level_3/Semster_2/Software Developement/Last edit/LAst/The project-finish/The project/The project/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/facualty/Level_3/Semster_2/Software Developement/Last edit/LAst/The project-finish/The project/The project/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/facualty/Level_3/Semster_2/Software Developement/Last edit/LAst/The project-finish/The project/The project/Views/Admin/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/facualty/Level_3/Semster_2/Software Developement/Last edit/LAst/The project-finish/The project/The project/Views/Admin/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/facualty/Level_3/Semster_2/Software Developement/Last edit/LAst/The project-finish/The project/The project/Views/Home/about.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxhYm91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/facualty/Level_3/Semster_2/Software Developement/Last edit/LAst/The project-finish/The project/The project/Views/Home/Add_Coliseum.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZGRfQ29saXNldW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/facualty/Level_3/Semster_2/Software Developement/Last edit/LAst/The project-finish/The project/The project/Views/Home/Add_course.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZGRfY291cnNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/facualty/Level_3/Semster_2/Software Developement/Last edit/LAst/The project-finish/The project/The project/Views/Home/Add_Engineer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZGRfRW5naW5lZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/facualty/Level_3/Semster_2/Software Developement/Last edit/LAst/The project-finish/The project/The project/Views/Home/Add_Lab.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZGRfTGFiLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/facualty/Level_3/Semster_2/Software Developement/Last edit/LAst/The project-finish/The project/The project/Views/Home/Add_Lecture.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZGRfTGVjdHVyZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/facualty/Level_3/Semster_2/Software Developement/Last edit/LAst/The project-finish/The project/The project/Views/Home/Add_Professor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZGRfUHJvZmVzc29yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/facualty/Level_3/Semster_2/Software Developement/Last edit/LAst/The project-finish/The project/The project/Views/Home/Add_Section.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZGRfU2VjdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/facualty/Level_3/Semster_2/Software Developement/Last edit/LAst/The project-finish/The project/The project/Views/Home/Admin_services.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZG1pbl9zZXJ2aWNlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/facualty/Level_3/Semster_2/Software Developement/Last edit/LAst/The project-finish/The project/The project/Views/Home/course.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxjb3Vyc2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/facualty/Level_3/Semster_2/Software Developement/Last edit/LAst/The project-finish/The project/The project/Views/Home/course_1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxjb3Vyc2VfMS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/facualty/Level_3/Semster_2/Software Developement/Last edit/LAst/The project-finish/The project/The project/Views/Home/course_2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxjb3Vyc2VfMi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/facualty/Level_3/Semster_2/Software Developement/Last edit/LAst/The project-finish/The project/The project/Views/Home/Department.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXBhcnRtZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/facualty/Level_3/Semster_2/Software Developement/Last edit/LAst/The project-finish/The project/The project/Views/Home/Edit_course.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFZGl0X2NvdXJzZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/facualty/Level_3/Semster_2/Software Developement/Last edit/LAst/The project-finish/The project/The project/Views/Home/Edit_Department.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFZGl0X0RlcGFydG1lbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/facualty/Level_3/Semster_2/Software Developement/Last edit/LAst/The project-finish/The project/The project/Views/Home/Edit_Engineer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFZGl0X0VuZ2luZWVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/facualty/Level_3/Semster_2/Software Developement/Last edit/LAst/The project-finish/The project/The project/Views/Home/Edit_Enrollment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFZGl0X0Vucm9sbG1lbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/facualty/Level_3/Semster_2/Software Developement/Last edit/LAst/The project-finish/The project/The project/Views/Home/Edit_Lecture.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFZGl0X0xlY3R1cmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/facualty/Level_3/Semster_2/Software Developement/Last edit/LAst/The project-finish/The project/The project/Views/Home/Edit_Professor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFZGl0X1Byb2Zlc3Nvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/facualty/Level_3/Semster_2/Software Developement/Last edit/LAst/The project-finish/The project/The project/Views/Home/Edit_Section.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFZGl0X1NlY3Rpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/facualty/Level_3/Semster_2/Software Developement/Last edit/LAst/The project-finish/The project/The project/Views/Home/Edit_student.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFZGl0X3N0dWRlbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/facualty/Level_3/Semster_2/Software Developement/Last edit/LAst/The project-finish/The project/The project/Views/Home/Engineer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFbmdpbmVlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/facualty/Level_3/Semster_2/Software Developement/Last edit/LAst/The project-finish/The project/The project/Views/Home/Engineer_1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFbmdpbmVlcl8xLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/facualty/Level_3/Semster_2/Software Developement/Last edit/LAst/The project-finish/The project/The project/Views/Home/Engineer_2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFbmdpbmVlcl8yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/facualty/Level_3/Semster_2/Software Developement/Last edit/LAst/The project-finish/The project/The project/Views/Home/Enrollment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFbnJvbGxtZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/facualty/Level_3/Semster_2/Software Developement/Last edit/LAst/The project-finish/The project/The project/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/facualty/Level_3/Semster_2/Software Developement/Last edit/LAst/The project-finish/The project/The project/Views/Home/Lecture.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMZWN0dXJlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/facualty/Level_3/Semster_2/Software Developement/Last edit/LAst/The project-finish/The project/The project/Views/Home/Lecture_1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMZWN0dXJlXzEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/facualty/Level_3/Semster_2/Software Developement/Last edit/LAst/The project-finish/The project/The project/Views/Home/Lecture_2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMZWN0dXJlXzIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/facualty/Level_3/Semster_2/Software Developement/Last edit/LAst/The project-finish/The project/The project/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/facualty/Level_3/Semster_2/Software Developement/Last edit/LAst/The project-finish/The project/The project/Views/Home/Professor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9mZXNzb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/facualty/Level_3/Semster_2/Software Developement/Last edit/LAst/The project-finish/The project/The project/Views/Home/Professor_1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9mZXNzb3JfMS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/facualty/Level_3/Semster_2/Software Developement/Last edit/LAst/The project-finish/The project/The project/Views/Home/Professor_2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9mZXNzb3JfMi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/facualty/Level_3/Semster_2/Software Developement/Last edit/LAst/The project-finish/The project/The project/Views/Home/Section.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZWN0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/facualty/Level_3/Semster_2/Software Developement/Last edit/LAst/The project-finish/The project/The project/Views/Home/Section_1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZWN0aW9uXzEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/facualty/Level_3/Semster_2/Software Developement/Last edit/LAst/The project-finish/The project/The project/Views/Home/Section_2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZWN0aW9uXzIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/facualty/Level_3/Semster_2/Software Developement/Last edit/LAst/The project-finish/The project/The project/Views/Home/services.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxzZXJ2aWNlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/facualty/Level_3/Semster_2/Software Developement/Last edit/LAst/The project-finish/The project/The project/Views/Home/show_Department.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxzaG93X0RlcGFydG1lbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/facualty/Level_3/Semster_2/Software Developement/Last edit/LAst/The project-finish/The project/The project/Views/Home/show_Enrollment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxzaG93X0Vucm9sbG1lbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/facualty/Level_3/Semster_2/Software Developement/Last edit/LAst/The project-finish/The project/The project/Views/Home/show_student.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxzaG93X3N0dWRlbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/facualty/Level_3/Semster_2/Software Developement/Last edit/LAst/The project-finish/The project/The project/Views/Home/student.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxzdHVkZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/facualty/Level_3/Semster_2/Software Developement/Last edit/LAst/The project-finish/The project/The project/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/facualty/Level_3/Semster_2/Software Developement/Last edit/LAst/The project-finish/The project/The project/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/facualty/Level_3/Semster_2/Software Developement/Last edit/LAst/The project-finish/The project/The project/Views/student.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3Ncc3R1ZGVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/facualty/Level_3/Semster_2/Software Developement/Last edit/LAst/The project-finish/The project/The project/Views/StudentCreatives/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudENyZWF0aXZlc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/facualty/Level_3/Semster_2/Software Developement/Last edit/LAst/The project-finish/The project/The project/Views/StudentCreatives/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudENyZWF0aXZlc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/facualty/Level_3/Semster_2/Software Developement/Last edit/LAst/The project-finish/The project/The project/Views/StudentCreatives/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudENyZWF0aXZlc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/facualty/Level_3/Semster_2/Software Developement/Last edit/LAst/The project-finish/The project/The project/Views/StudentCreatives/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudENyZWF0aXZlc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/facualty/Level_3/Semster_2/Software Developement/Last edit/LAst/The project-finish/The project/The project/Views/StudentCreatives/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudENyZWF0aXZlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/facualty/Level_3/Semster_2/Software Developement/Last edit/LAst/The project-finish/The project/The project/Views/StudentCreatives/Sudent_Creativty.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudENyZWF0aXZlc1xTdWRlbnRfQ3JlYXRpdnR5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/facualty/Level_3/Semster_2/Software Developement/Last edit/LAst/The project-finish/The project/The project/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/facualty/Level_3/Semster_2/Software Developement/Last edit/LAst/The project-finish/The project/The project/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/facualty/Level_3/Semster_2/Software Developement/Last edit/LAst/The project-finish/The project/The project/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-byiv0ia4me

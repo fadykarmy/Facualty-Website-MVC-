@@ -1,0 +1,46 @@
+﻿@model IEnumerable<The_project.model.Lecture>
+
+@{
+    ViewData["Title"] = "Lecture";
+}
+<h1>Lecture</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Lecturename)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CourseID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ProfessorID)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null)
+        {
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Lecturename)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.CourseID)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ProfessorID)
+                    </td>
+                </tr>
+            }
+
+        }
+    </tbody>
+</table>

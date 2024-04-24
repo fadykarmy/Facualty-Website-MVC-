@@ -1,0 +1,147 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Services";
+}
+<style>
+    section .service {
+        direction: rtl;
+    }
+
+    .contianer {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+        padding: 55px 10px 20px;
+    }
+
+    .box {
+        background: #016055;
+        width: 16.25em;
+        margin-left: 10px;
+        margin-bottom: 45px;
+        border-radius: 10px;
+        border: 1px solid #f85a40;
+    }
+
+    .icon {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .info {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .info p {
+        margin-bottom: 20px;
+        color: white;
+        font-weight: bold;
+    }
+
+    .info a {
+        text-decoration: none;
+        background: black;
+        padding: 10px 10px 14px;
+        color: white;
+        font-weight: 600;
+        border-radius: 10px;
+        transition: 0.7s ease;
+    }
+
+    .info a:hover {
+        background: #f85a40;
+    }
+</style>
+<a class="register" href="/Admin/Register">Register</a>
+<section class="service">
+    <div class="contianer">
+        <div class="box Register-Students">
+            <div class="icon">
+                <img src="https://cdn-icons-png.flaticon.com/512/9825/9825971.png" width="50%">
+            </div>
+            <div class="info">
+                <p>تسجيل طلاب</p>
+                <a href="/Home/student">التسجيل</a>
+            </div>
+        </div>
+        <div class="box Register-Material">
+            <div class="icon">
+                <img src="https://cdn-icons-png.flaticon.com/512/5526/5526535.png" width="50%">
+            </div>
+            <div class="info">
+                <p>تسجيل المواد</p>
+                <a href="/Home/Enrollment">التسجيل</a>
+            </div>
+        </div>
+        <div class="box Register-Deparment">
+            <div class="icon">
+                <img src="https://cdn-icons-png.flaticon.com/512/3097/3097975.png" width="50%">
+            </div>
+            <div class="info">
+                <p>تسجيل الاقسام</p>
+                <a href="/Home/Department">التسجيل</a>
+            </div>
+        </div>
+        
+        <div class="box Result">
+            <div class="icon">
+                <img src="https://cdn-icons-png.flaticon.com/512/5352/5352159.png" width="50%">
+            </div>
+            <div class="info">
+                <p>المواد</p>
+                <a href="/Home/course">عرض </a>
+            </div>
+        </div>
+        <div class="box Register-Students">
+            <div class="icon">
+                <img src="https://cdn-icons-png.flaticon.com/512/9825/9825971.png" width="50%">
+            </div>
+            <div class="info">
+                <p>الدكاترة</p>
+                <a href="/Home/Professor">عرض</a>
+            </div>
+        </div>
+        <div class="box Register-Students">
+            <div class="icon">
+                <img src="https://cdn-icons-png.flaticon.com/512/9825/9825971.png" width="50%">
+            </div>
+            <div class="info">
+                <p>المعيدين</p>
+                <a href="/Home/Engineer">عرض</a>
+            </div>
+        </div>
+        <div class="box Register-Material">
+            <div class="icon">
+                <img src="https://cdn-icons-png.flaticon.com/512/5526/5526535.png" width="50%">
+            </div>
+            <div class="info">
+                <p>المحاضرات</p>
+                <a href="/Home/Lecture">عرض</a>
+            </div>
+        </div>
+        <div class="box Register-Material">
+            <div class="icon">
+                <img src="https://cdn-icons-png.flaticon.com/512/5526/5526535.png" width="50%">
+            </div>
+            <div class="info">
+                <p>السكاشن</p>
+                <a href="/Home/Section">عرض</a>
+            </div>
+        </div>
+        <div class="box Register-Students">
+            <div class="icon">
+                <img src="https://cdn-icons-png.flaticon.com/512/9825/9825971.png" width="50%">
+            </div>
+            <div class="info">
+                <p>Admin service</p>
+                <a href="/Admin/Login">الدخول</a>
+            </div>
+        </div>
+    </div>
+</section>

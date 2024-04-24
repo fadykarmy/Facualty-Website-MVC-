@@ -1,0 +1,84 @@
+﻿@model IEnumerable<The_project.model.StudentCreative>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<style>
+    h1 {
+        margin: 20px 0px;
+        text-align: center;
+        color: #FFC107;
+    }
+
+    p a{
+        color: white;
+        background: red;
+        padding: 10px;
+        border-radius: 10px;
+        font-weight: bold;
+        margin-left: 5px;
+    }
+
+    table.table {
+        text-align: center;
+    }
+
+    .email a {
+        color: #FFC107;
+    }
+
+    thead {
+        color: white;
+    }
+</style>
+<h1>Records of Our Heros (Student Creativity)</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.firstName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.lastName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.studentImgae)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.firstName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.lastName)
+
+            </td>
+            <td class="email">
+                    @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+@*                @Html.DisplayFor(modelItem => item.studentImgae)
+*@                  <a asp-action="Details" asp-route-id="@item.Code">
+                        <img src="/img/@item.studentImgae" alt="Student Report Here" style="border-radius:50%; width:70px;height:70px">
+                    </a>
+            </td>
+            <td>
+                    <a asp-action="Edit" asp-route-id="@item.Code" style="color: #FFC107">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.Code" style="color: #FFC107">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Code" style="color: #FFC107">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

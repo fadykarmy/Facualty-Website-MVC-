@@ -1,0 +1,63 @@
+﻿@model IEnumerable<The_project.model.Enrollment>
+
+@{
+    ViewData["Title"] = "show_Enrollment";
+}
+<style>
+    a.info {
+        text-decoration: none;
+        background: green;
+        padding: 10px 10px 14px;
+        color: white;
+        font-weight: 600;
+        border-radius: 10px;
+    }
+</style>
+
+<h1>show_Enrollment</h1>
+
+<p>
+    <a asp-action="Enrollment">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Grade)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CourseID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StudentID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ProfessorID)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Grade)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CourseID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StudentID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProfessorID)
+            </td>
+            <td>
+                    <a asp-action="Edit_Enrollment" class="info" asp-route-id="@item.EnrollmentID">Edit</a> |
+
+                    <a asp-action="Delete_Enrollment" class="info" asp-route-id="@item.EnrollmentID">Delete</a>
+            </td>
+        </tr>
+}}
+    </tbody>
+</table>

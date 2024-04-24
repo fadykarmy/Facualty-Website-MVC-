@@ -1,0 +1,57 @@
+﻿@model IEnumerable<The_project.model.Course>
+
+@{
+    ViewData["Title"] = "course";
+}
+<style>
+    a.info {
+        text-decoration: none;
+        background: green;
+        padding: 10px 10px 14px;
+        color: white;
+        font-weight: 600;
+        border-radius: 10px;
+    }
+</style>
+<h1>course</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Credits)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ProfessorID)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null){
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Credits)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProfessorID)
+            </td>
+            <td>
+
+                        <a asp-action="Delete_course" class="info" asp-route-id="@item.CourseID">Delete</a>
+            </td>
+        </tr>
+}
+            }
+    </tbody>
+</table>

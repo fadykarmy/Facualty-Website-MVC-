@@ -1,0 +1,78 @@
+﻿@model The_project.model.StudentCreative
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+
+<style>
+    section h1 {
+        text-align: center;
+        color: #FFC107;
+    }
+
+    .contianer {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+        padding: 55px 10px 20px;
+    }
+
+    .box {
+        background: #016055;
+        width: 16.25em;
+        margin-left: 10px;
+        margin-bottom: 45px;
+        border-radius: 10px;
+        border: 1px solid #f85a40;
+    }
+
+    .icon {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .icon img {
+        border-radius: 50% 20% / 10% 40%;    
+    }
+
+    .info {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .info p {
+         margin-bottom: 5px;
+         color: white;
+         font-weight: bold;
+    }
+
+    .info p a {
+          color: #f85a40;
+          font-weight: 600;
+          transition: 0.7s ease;
+    }
+
+</style>
+<section>
+    <h1>Details</h1>
+    <div class="contianer">
+        <div class="box Register-Students">
+            <div class="icon">
+                <img src="/img/@Html.DisplayFor(model => model.studentImgae)" width="50%">
+            </div>
+            <div class="info">
+                <p>@Html.DisplayNameFor(model => model.firstName): @Html.DisplayFor(model => model.firstName)</p>
+                <p>@Html.DisplayNameFor(model => model.lastName): @Html.DisplayFor(model => model.lastName)</p>
+                <p>@Html.DisplayNameFor(model => model.Email): @Html.DisplayFor(model => model.Email)</p>
+            </div>
+        </div>
+    </div>
+</section>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.Code">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

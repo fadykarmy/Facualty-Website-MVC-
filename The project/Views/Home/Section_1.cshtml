@@ -1,0 +1,54 @@
+﻿@model IEnumerable<The_project.model.Section>
+
+@{
+    ViewData["Title"] = "Section";
+}
+<style>
+    a.info {
+        text-decoration: none;
+        background: green;
+        padding: 10px 10px 14px;
+        color: white;
+        font-weight: 600;
+        border-radius: 10px;
+    }
+</style>
+
+<h1>Section</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.CourseID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EngineerID)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null)
+        {
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.CourseID)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.EngineerID)
+                    </td>
+                    <td>
+                        <a asp-action="Edit_Section" class="info" asp-route-id="@item.SectionID">Edit</a>
+                    </td>
+                </tr>
+            }
+
+        }
+    </tbody>
+</table>
